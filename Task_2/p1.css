@@ -1,0 +1,158 @@
+ @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Faster+One&family=Lumanosimo&family=Readex+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Readex+Pro:wght@200&display=swap');
+/*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    outline:none;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+    color: #ffff;
+}
+section{
+    padding: 20rem 5% 2rem;
+    border: 2px solid red;
+    min-height: 100vh;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:black;
+    color: #ffff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    z-index: 100;
+}
+.header h1{
+    width: 45%;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.header .sticky {
+    border-bottom: .1rem solid rgba(0,0,0,.2);
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: floralwhite;
+    display: none;
+}
+
+.navbar a{
+    font-size: 2.9rem;
+    font-family: 'Aref Ruqaa Ink', serif;
+    color: #ffff;
+    text-decoration: none;
+    padding: 17px;
+    transition: .8s;
+}
+
+.header .navbar a.active{
+    color:aqua;
+}
+.toggle{
+    border:2px solid yellow; 
+    font-size:4rem;
+    align-self: center;
+    margin-left:1%;
+}
+
+.toggle:hover ,.navbar a:hover{
+    font-weight: 600;
+    cursor:pointer;
+    color:aqua;
+}
+
+span{
+    color:aqua;
+}
+
+.home{
+    top:90%;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: red;
+    background-position: center;
+    display: flex;
+    padding:100px 10% ;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Aref Ruqaa Ink', serif; ;
+}
+
+body{
+    color: #ffff;
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    border: 2px solid red;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.header h1{
+    position: relative;
+    font-size: 3rem;
+    color: #ffff;
+    font-weight: 600;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color:#ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .7s;
+}
+
+.navbar a:hover{
+    color:aqua;
+    font-weight: 600;
+    border-bottom: 4px solid aqua;
+}
+
+.home{
+    position: relative;
+    width:100;
+    justify-content: space-between;
+    height: 100vh;
+    /* background:url('images.jpg');
+    background-position: center;
+    background-size: cover; */
+    display: flex;
+    align-items: center;
+}
