@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 42%;
+  margin-top: 20px;
+  width: fit-content;
+  animation: changing 3s;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 1rem;
+}
+
+.in-out {
+  width: 70%;
+  display: grid;
+  gap: 5px;
+}
+
+.results {
+  padding: 4%;
+  border: 2px solid wheat;
+  border-radius: 1rem;
+  font-size: 18px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.numbers {
+  border: 3px solid white;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-radius: 1rem;
+}
+
+.btnss {
+  font-size: 22px;
+  border-radius: 1rem;
+  padding: 10px 15px;
+  text-align: center;
+  color: aliceblue;
+}
+.cal-btn{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.out-btn {
+  padding: 5%;
+  font-size: 18px;
+  border-radius: 1rem;
+  color: aliceblue;
+}
+
+.out-btn:hover,
+.btnss:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
+#clear,
+#calculate {
+  padding: 2%;
+}
+
+#clear:hover,
+#calculate:hover {
+  text-decoration: underline;
+}
+@media (max-width>768px) {
+    
+h1 {
+  font-size: 40px;
+  color: white;
+  margin-left: 36%;
+  margin-top: 20px;
+  width: fit-content;
+  animation: changing 3s;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 1rem;
+}
+
+.in-out {
+  width: 70%;
+  display: grid;
+  gap: 5px;
+}
+
+.results {
+  padding: 4%;
+  border: 2px solid wheat;
+  border-radius: 1rem;
+  font-size: 18px;
+  text-align: center;
+  color: aliceblue;
+}
+
+.numbers {
+  border: 3px solid white;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-radius: 1rem;
+}
+
+.btnss {
+  font-size: 22px;
+  border-radius: 1rem;
+  padding: 10px 15px;
+  text-align: center;
+  color: aliceblue;
+}
+.cal-btn{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.out-btn {
+  padding: 5%;
+  font-size: 18px;
+  border-radius: 1rem;
+  color: aliceblue;
+}
+
+.out-btn:hover,
+.btnss:hover {
+  color: black;
+  background-color: aliceblue;
+}
+
+#clear,
+#calculate {
+  padding: 2%;
+}
+
+#clear:hover,
+#calculate:hover {
+  text-decoration: underline;
+}
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+    margin-left: 20%;
+  }
+  
+  .container {
+    width: 90%;
+  }
+  
+  .in-out, .numbers {
+    width: 90%;
+  }
+  
+  .results {
+    font-size: 16px;
+  }
+
+  .cal-btn{
+    display: flex;
+    width: 80%;
+  }
+  
+  .btnss {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+  
+  .out-btn {
+    font-size: 16px;
+  }
+  
+  #clear, #calculate {
+    padding: 1%;
+  }
+}
