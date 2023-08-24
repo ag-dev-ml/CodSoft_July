@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <div class="in-out">
+            <input type="text" name="tex-in" class="results" id="results" placeholder=" Your Input">
+            <input type="text" name="tex-in" class="results" id="output" placeholder=" Result" readonly>
+        </div>
+        <div class="numbers">
+            <input type="button" value="( )"class="btnss" onclick="display('()')" id="b1">
+            <input type="button" value="%" class="btnss"  title="In %age" onclick="display('%')" onclick="tage()" id="b2">
+            <input type="button" value="/" class="btnss"  onclick="display('/')" id="b3">
+            <input type="button" value="-" class="btnss"  onclick="display('-')" id="b17">
+            <input type="button" value="+" class="btnss"  onclick="display('+')" id="b16">
+            <input type="button" value="*" class="btnss"  onclick="display('*')" id="b15">
+            
+            <input type="button" value="7" onclick="display('7')" class="btnss" id="b4">
+            <input type="button" value="8" onclick="display('8')" class="btnss" id="b5">
+            <input type="button" value="9" onclick="display('9')" class="btnss" id="b6">
+            <input type="button" value="6" onclick="display('6')" class="btnss" id="b7">
+            <input type="button" value="5" onclick="display('5')" class="btnss" id="b8">
+            <input type="button" value="4" onclick="display('4')" class="btnss" id="b9">
+            <input type="button" value="3" onclick="display('3')" class="btnss" id="b10">
+            <input type="button" value="2" onclick="display('2')" class="btnss" id="b11">
+            <input type="button" value="1" onclick="display('1')" class="btnss" id="b12">
+            <input type="button" value="." onclick="display('.')"class="btnss" id="b13">
+            <input type="button" value="0" onclick="display('1')" class="btnss" id="b14">
+            <input type="reset" value="x" onclick="display('reset')" class="btnss" id="b18">
+        </div>
+        <div class="cal-btn">
+            <input type="button" value="Calculate" id="calculate" onclick="solve()" class="out-btn">
+            <input type="button" value="Clear" id="clear" onclick="clearScreem()" class="out-btn">
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
